@@ -1,0 +1,160 @@
+.bg {
+    height: 100vh;
+    background-image: url(../assets/img/background/patrick-hendry-5mn8pQIWzXU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+}
+
+
+.intro {
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .intro {
+        margin-right: 20px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+
+    .sagiri {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 200px;
+
+    }
+
+    .bg {
+        background-size: cover;
+        margin: 0;
+    }
+
+    .projectImage {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 4px;
+}
+
+img.sagiri {
+    width: 200px;
+    /* Ukuran gambar yang lebih kecil */
+    height: auto;
+    /* Biarkan tinggi gambar disesuaikan agar tidak terdistorsi */
+    align-items: end;
+    justify-content: end;
+    float: right;
+}
+
+.sagiri {
+    float: right;
+    margin-top: 1px;
+    background: rgb(28, 6, 87);
+    background: linear-gradient(90deg, rgba(28, 6, 87, 1) 16%, rgba(29, 39, 115, 1) 29%, rgba(32, 103, 170, 1) 54%, rgb(64, 8, 116) 100%);
+    border: 2px solid #333;
+    border-radius: 88% 12% 81% 19% / 30% 45% 55% 70%;
+    
+}
+
+.sagiri {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.gambar {
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: auto;
+
+}
+
+.col.ini {
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100px;
+}
+
+.Project {
+    height: auto;
+    margin-top: 327px;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* @media (min-width: 1180px) {
+    .ProjectWrapper {
+         margin-right: 10px;
+         margin-left: 10px;
+     }
+ } */
+
+.projectImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: auto;
+    box-shadow: 10px 2px 5px #212529;
+}
+
+.images {
+    height: 400px;
+    width: auto;
+}
+
+.Faq {
+    height: auto;
+    margin-top: 100px;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Faq1 {
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.Faq1 .accordion {
+    --bs-accordion-bg: #f1faee
+}
+
+.Faq1 .accordion .accordion-item .accordion-header {
+    line-height: 2;
+}
+
+.footer1 {
+    background-color: #212529;
+}
+
+.Footer1 .row:nth-child(2){
+    padding-top: 100px;
+}
