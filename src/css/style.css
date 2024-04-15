@@ -50,6 +50,10 @@
         margin-left: 25px;
     }
 
+    body {
+    overflow-x: hidden;
+    }
+
     
 }
 
